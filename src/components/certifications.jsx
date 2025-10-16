@@ -2,9 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { ExternalLink } from "lucide-react";
 import intelLogo from "../assets/intel.png";
-import udemyLogo from "../assets/udemy.svg"; 
-import Certifications from "./components/Certifications";
-// ✅ now uses local Udemy SVG
+import udemyLogo from "../assets/udemy.svg"; // ✅ local Udemy SVG
 
 const certifications = [
   {
@@ -57,7 +55,6 @@ const Certifications = () => (
             whileHover={{ scale: 1.05 }}
             className="cert-card bg-gray-800 bg-opacity-70 border border-gray-700 rounded-2xl p-6 flex flex-col items-center text-center hover:border-blue-500 transition-all shadow-lg hover:shadow-blue-500/30"
           >
-            {/* 🧠 Conditional Icon Rendering */}
             {cert.icon === "intel" ? (
               <img
                 src={intelLogo}
