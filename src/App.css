@@ -1,0 +1,44 @@
+/* src/index.css */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* smooth scroll between sections */
+html {
+  scroll-behavior: smooth;
+}
+
+/* global styles for the site */
+body {
+  @apply bg-gray-950 text-gray-100 font-sans antialiased;
+}
+
+/* optional container spacing */
+section {
+  @apply px-6 py-24;
+}
+
+/* nice gradient background for hero section */
+.hero-gradient {
+  @apply bg-gradient-to-b from-gray-900 to-gray-800;
+}
+
+/* link hover style */
+a {
+  @apply transition-colors duration-300;
+}
+
+/* buttons */
+.btn-primary {
+  @apply bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-600 transition;
+}
+
+.btn-secondary {
+  @apply bg-gray-700 text-white px-6 py-3 rounded-lg hover:bg-gray-600 transition;
+}
+
+/* footer style */
+footer {
+  @apply bg-gray-900 text-center text-gray-400 py-8 border-t border-gray-800;
+}
