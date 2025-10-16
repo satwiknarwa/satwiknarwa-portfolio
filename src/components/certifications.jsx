@@ -2,7 +2,9 @@ import React from "react";
 import { motion } from "framer-motion";
 import { ExternalLink } from "lucide-react";
 import intelLogo from "../assets/intel.png";
-import udemyLogo from "../assets/udemy.svg"; // ✅ now uses local Udemy SVG
+import udemyLogo from "../assets/udemy.svg"; 
+import Certifications from "./components/Certifications";
+// ✅ now uses local Udemy SVG
 
 const certifications = [
   {
