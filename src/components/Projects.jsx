@@ -20,7 +20,7 @@ const projects = [
     github: "https://github.com/satwiknarwa/face-emotion-recognization",
   },
   {
-    name: "Cinema – Netflix-Style Movie Discovery App",
+    name: "Cinema –  Movie Discovery App",
     description:
       "Full-stack movie discovery platform with categorized browsing, favorites, and real-time search using the OMDb API.",
     tech: "React • Vite • Tailwind CSS • OMDb API • Vercel",
