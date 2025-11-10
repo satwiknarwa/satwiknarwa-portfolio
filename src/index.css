@@ -28,7 +28,6 @@ a:hover {
 
 body {
   margin: 0;
-  /* Remove display: flex and place-items */
   min-width: 320px;
   min-height: 100vh;
   overflow-x: hidden;
@@ -70,12 +69,21 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+/* Smooth scroll */
 html {
   scroll-behavior: smooth;
 }
+
+/* Skill icon hover glow */
 .skill-icon:hover img {
   filter: drop-shadow(0 0 10px #3b82f6);
 }
 .skill-icon img {
   transition: filter 0.3s ease-in-out;
+}
+.resume-glow:hover {
+  box-shadow: 
+    0 0 30px 10px rgba(122, 90, 248, 0.9), /* Primary glow */
+    0 0 80px 25px rgba(122, 90, 248, 0.5); /* Secondary wide glow */
 }

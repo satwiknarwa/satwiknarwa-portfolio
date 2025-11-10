@@ -23,7 +23,7 @@ const Footer = () => {
         className="text-lg font-mono text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 mb-8 hover:underline"
         whileHover={{ scale: 1.1 }}
       >
-        GetInTouch();
+        GetInTouch
       </motion.a>
 
       {/* Social Links */}
@@ -62,7 +62,7 @@ const Footer = () => {
 
       {/* Footer Text */}
       <p className="text-gray-400 font-mono text-sm">
-        Design & Built by Satwik © 2025
+        © 2025 Satwiknarwa. All rights reserved.
       </p>
 
       {/* Floating Resume Button */}
